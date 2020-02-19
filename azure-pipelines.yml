@@ -11,6 +11,5 @@ pool:
 
 steps:
 - script: |
-    pip install pytest pytest-azurepipelines
-    pytest
-  displayName: 'pytest'
+    ls
+  displayName: 'ls'
