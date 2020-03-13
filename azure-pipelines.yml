@@ -11,5 +11,5 @@ pool:
 
 steps:
 - script: |
-    ls
+    ls -halt
   displayName: 'ls'
