@@ -9,7 +9,11 @@ trigger:
 pool:
   name: 'RIT-RStudio'
 
+variables:
+  - group: rshiny-deployment
+  
 steps:
 - script: |
     ls -halt
+    echo $PROD_SERVER
   displayName: 'ls'
