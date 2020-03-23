@@ -17,4 +17,5 @@ steps:
 - script: |
     ls -halt
     echo $PROD_SERVER
+    echo $[variables.PROD_SERVER]
   displayName: 'lshalt'
